@@ -8,7 +8,14 @@
 本项目是用的最常见的一种光线追踪结构，是书
 [Ray Tracing in One Weekend by Peter Shirley](http://in1weekend.blogspot.com/2016/01/ray-tracing-in-one-weekend.html)
 的C#实现版本，可能与书上有一些小地方的出入，不过达到的结果几乎是一样的  
-  
+
+![img](https://raw.githubusercontent.com/pg7go/RayTracing/master/Screenshots/Chapter_12.png)  
+![img](https://raw.githubusercontent.com/pg7go/RayTracing/master/Screenshots/Chapter_8.png)  
+![img](https://raw.githubusercontent.com/pg7go/RayTracing/master/Screenshots/Chapter_9.png)  
+![img](https://raw.githubusercontent.com/pg7go/RayTracing/master/Screenshots/Chapter_10.png)  
+![img](https://raw.githubusercontent.com/pg7go/RayTracing/master/Screenshots/Chapter_11.png)  
+![img](https://raw.githubusercontent.com/pg7go/RayTracing/master/Screenshots/progress.png)  
+
 # 环境
 这里我是用的.Net Core 3.0   
   
