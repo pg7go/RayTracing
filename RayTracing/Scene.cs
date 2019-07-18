@@ -35,7 +35,7 @@ namespace RayTracing
         static float randF { get { return (float)random.NextDouble(); } }
 
 
-        public static Scene CreateRandomScene(int objectNumber = 500)
+        public static Scene CreateRandomScene(int objectNumber = 11)
         {
             Scene scene = new Scene();
             for (int a = -objectNumber; a < objectNumber; a++)
