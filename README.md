@@ -41,7 +41,7 @@
 # 踩过的一些坑  
 踩过的最大的一个坑是球体碰撞时法线设置那里  
 书上是用：`(rec.position - center)/radius; `  
-我是用：`rec.normal = Vector3.Normalize((rec.position - center); `   
+我是用：`rec.normal = Vector3.Normalize(rec.position - center); `   
 作用都一样，但是到了后面的第九章那里  
 遇到了球的半径居然是负数！！！  
 然后渲染不出来对应的图像！  
