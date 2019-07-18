@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Diagnostics;
 using System.Numerics;
 
@@ -14,19 +14,19 @@ namespace RayTracing
 
 
 
-            Scene scene = new Scene();
+            //Scene scene = new Scene();
             //Scene scene7 = new Scene();
             //scene7.hitableObjects.Add(new Sphere(new Vector3(0, 0, -1), 0.5f, new Lambertian(new Vector3(0.8f, 0.3f, 0.3f))));
             //scene7.hitableObjects.Add(new Sphere(new Vector3(0, -100.5f, -1), 100, new Lambertian(new Vector3(0.8f, 0.8f, 0f))));
             //scene7.hitableObjects.Add(new Sphere(new Vector3(1, 0, -1), 0.5f, new Metal(new Vector3(0.8f, 0.6f, 0.2f), 1f)));
             //scene7.hitableObjects.Add(new Sphere(new Vector3(-1, 0, -1), 0.5f, new Metal(new Vector3(0.8f, 0.8f, 0.8f), 0.3f)));
 
-            scene.hitableObjects.Add(new Sphere(new Vector3(-2, 0, -1), 0.5f, new Lambertian(new Vector3(0.3f, 0.8f, 0.3f))));
-            scene.hitableObjects.Add(new Sphere(new Vector3(0, 0, -1), 0.5f, new Lambertian(new Vector3(0.8f, 0.3f, 0.3f))));
-            scene.hitableObjects.Add(new Sphere(new Vector3(0, -100.5f, -1), 100, new Lambertian(new Vector3(0.8f, 0.8f, 0f))));
-            scene.hitableObjects.Add(new Sphere(new Vector3(1, 0, -1), 0.5f, new Metal(new Vector3(0.2f, 0.6f, 0.6f), 0.2f)));
-            scene.hitableObjects.Add(new Sphere(new Vector3(-1, 0, -1), 0.5f, new Dielectric(1.5f)));
-            scene.hitableObjects.Add(new Sphere(new Vector3(-1, 0, -1), -0.45f, new Dielectric(1.5f)));
+            //scene.hitableObjects.Add(new Sphere(new Vector3(-2, 0, -1), 0.5f, new Lambertian(new Vector3(0.3f, 0.8f, 0.3f))));
+            //scene.hitableObjects.Add(new Sphere(new Vector3(0, 0, -1), 0.5f, new Lambertian(new Vector3(0.8f, 0.3f, 0.3f))));
+            //scene.hitableObjects.Add(new Sphere(new Vector3(0, -100.5f, -1), 100, new Lambertian(new Vector3(0.8f, 0.8f, 0f))));
+            //scene.hitableObjects.Add(new Sphere(new Vector3(1, 0, -1), 0.5f, new Metal(new Vector3(0.2f, 0.6f, 0.6f), 0.2f)));
+            //scene.hitableObjects.Add(new Sphere(new Vector3(-1, 0, -1), 0.5f, new Dielectric(1.5f)));
+            //scene.hitableObjects.Add(new Sphere(new Vector3(-1, 0, -1), -0.45f, new Dielectric(1.5f)));
 
 
 
