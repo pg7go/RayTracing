@@ -4,6 +4,8 @@
 在我大二时他就已经大四并差不多离校了，之后，学校基本上就没有搞图形学的了。  
 想了想毕竟我是想走游戏方向的，学一学这方面知识总是有好处的。  
   
+在本项目基础上我继续做了个CPU离线渲染器，[开源地址](https://github.com/pg7go/CPU-Render)。  
+  
 # 简介  
 本项目是用的最常见的一种光线追踪结构，是书
 [Ray Tracing in One Weekend by Peter Shirley](http://in1weekend.blogspot.com/2016/01/ray-tracing-in-one-weekend.html)
